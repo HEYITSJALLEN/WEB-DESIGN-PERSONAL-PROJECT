@@ -1,0 +1,53 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: antiquewhite;
+}
+
+.message-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+
+.message-greeting {
+    position: relative;
+    font-size: 4em;
+    color: rgb(238, 166, 166);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    animation: bounce 1s infinite;
+    border: 5px solid #ffff;
+    padding: 20px;
+    border-radius: 10px;
+    background: linear-gradient(143deg, #ffd700, #ff6342, rgb(94, 71, 175));
+    -webkit-animation-fill-color: transparent;
+    font-family: 'Bubblegum Sans', cursive;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    } 
+    60% {
+        transform: translateY(-15px);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translate(-20px);
+    }
+}
