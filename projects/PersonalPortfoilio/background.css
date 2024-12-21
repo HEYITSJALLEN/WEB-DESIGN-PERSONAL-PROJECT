@@ -1,0 +1,12 @@
+* {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+    text-align: center;
+}
