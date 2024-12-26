@@ -3,9 +3,17 @@
     background-color: blueviolet;
 }
 
+nav{
+    text-align: center;
+}
+
 nav a{
     text-decoration: none;
     color: black;
+}
+
+nav a:hover{
+    color: aliceblue ;
 }
 
 footer {
