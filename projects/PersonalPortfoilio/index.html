@@ -10,12 +10,30 @@
     <header>
         <h1>My Portfolio</h1>
     </header>
-    <nav>
-        <a href="#">Link</a>
-        <a href="#">Link</a>
-        <a href="#">Link</a>
-        <a href="#">Link</a>
-    </nav>
+     <nav id="hamburger-nav"> <!-- Start -->
+        <div class="logo">Jared Allen Wenceslao</div> <!--  This will be my logo  -->
+        <div class="hamburger-menu">
+        <div class="hamburger-icon open" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-links open"></div>
+        <li>
+            <a href="About" onclick="toggleMenu()">About</a>
+        </li>
+        <li>
+            <a href="Skills" onclick="toggleMenu()">Skills</a>
+        </li>
+        <li>
+            <a href="Project" onclick="toggleMenu()">Project</a>
+        </li>
+        <li>
+            <a href="Contact" onclick="toggleMenu()">Contrat</a>
+        </li>
+    </div>
+    </nav> <!-- End  -->
+
     <main>
         <div class="title"><h2>Jared Allen Wenceslao</h2></div>
     </main>

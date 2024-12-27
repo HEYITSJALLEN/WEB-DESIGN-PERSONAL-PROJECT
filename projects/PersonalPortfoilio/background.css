@@ -1,6 +1,26 @@
 * {
+    margin: 0;
+    padding: 0;
+}
+
+body {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: blueviolet;
+}
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.menu-links {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: white;
+    width: fit-content;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.3 ease-in-out;
 }
 
 nav{
@@ -10,6 +30,15 @@ nav{
 nav a{
     text-decoration: none;
     color: black;
+}
+
+.hamburger-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 24px;
+    width: 30px;
+    cursor: pointer;
 }
 
 .title {
@@ -23,3 +52,50 @@ nav a:hover{
 footer {
     text-align: center;
 }
+
+
+
+/* @media screen and (max-width: 1200px) {
+    #hamburger-nav {
+        display: flex
+;
+    }
+}
+#hamburger-nav {
+    display: none;
+}
+nav {
+    justify-content: space-around;
+    align-items: center;
+    height: 17vh;
+}
+
+nav, .nav-links {
+    display: flex
+;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+user agent stylesheet
+nav {
+    display: block;
+    unicode-bidi: isolate;
+}
+body {
+    font-family: "Poppins", sans-serif;
+}
+injected stylesheet
+body {
+    --tfc-dark-mode-text-primary: #e4e4e7;
+    --tfc-dark-mode-text-secondary: #71717a;
+    --tfc-dark-mode-bg-primary: #27272a;
+    --tfc-dark-mode-bg-primary-2: #3f3f46;
+    --tfc-dark-mode-bg-secondary: #52525b;
+    --tfc-sidebar-width: 288px;
+}
+injected stylesheet
+:host, :root {
+    --rem: 16;
+} */
