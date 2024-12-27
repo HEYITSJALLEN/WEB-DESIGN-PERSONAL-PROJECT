@@ -12,6 +12,10 @@ nav a{
     color: black;
 }
 
+.title {
+    text-align: center;
+}
+
 nav a:hover{
     color: aliceblue ;
 }
