@@ -7,42 +7,19 @@ body {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: blueviolet;
 }
+
 div {
     display: block;
     unicode-bidi: isolate;
 }
 
-.menu-links {
-    position: absolute;
-    top: 100%;
-    right: 0;
-    background-color: white;
-    width: fit-content;
-    max-height: 0;
-    overflow: hidden;
-    transition: all 0.3 ease-in-out;
-}
-
-nav{
+.title {
     text-align: center;
 }
 
 nav a{
-    text-decoration: none;
     color: black;
-}
-
-.hamburger-icon {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 24px;
-    width: 30px;
-    cursor: pointer;
-}
-
-.title {
-    text-align: center;
+    text-decoration: none;
 }
 
 nav a:hover{
