@@ -6,20 +6,23 @@
 body {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: blueviolet;
+    margin: 15px;
 }
 
-div {
-    display: block;
-    unicode-bidi: isolate;
-}
 
 .title {
+    text-align: center;
+}
+
+nav {
     text-align: center;
 }
 
 nav a{
     color: black;
     text-decoration: none;
+    margin: 10px;
+    padding: 30px;
 }
 
 nav a:hover{
@@ -27,5 +30,9 @@ nav a:hover{
 }
 
 footer {
+    text-align: center;
+}
+
+h1{
     text-align: center;
 }
