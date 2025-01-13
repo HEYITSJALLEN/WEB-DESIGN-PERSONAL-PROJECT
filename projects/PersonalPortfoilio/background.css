@@ -9,6 +9,10 @@ body {
     margin: 15px;
 }
 
+p{
+  text-indent: 15px;
+  margin: 20px;
+}
 
 .title {
     text-align: center;
@@ -16,6 +20,7 @@ body {
 
 nav {
     text-align: center;
+    margin-bottom: 20px;
 }
 
 nav a{
@@ -36,3 +41,4 @@ footer {
 h1{
     text-align: center;
 }
+
