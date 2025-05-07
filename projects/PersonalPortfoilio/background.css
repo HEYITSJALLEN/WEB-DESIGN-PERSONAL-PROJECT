@@ -14,6 +14,10 @@ p{
   margin: 20px;
 }
 
+.profile{
+    border-radius: 15px;
+}
+
 a{
     text-decoration: none;
     color: rgb(133, 25, 25);
